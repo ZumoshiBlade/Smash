@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865661839474",
+    "firebase_url": "https://smashfb-default-rtdb.firebaseio.com",
+    "project_id": "smashfb",
+    "storage_bucket": "smashfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865661839474:android:c1350d91f9f77b0655baeb",
+        "android_client_info": {
+          "package_name": "com.zushi.smash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865661839474-fr3biuik6rrm8b8q5fo1arivjo2j1ds4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7rfPTK36iiO5eNqJX3h-GiA8u98GXdTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865661839474-fr3biuik6rrm8b8q5fo1arivjo2j1ds4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

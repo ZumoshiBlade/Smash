@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Administrar noticias"
+        android:id="@+id/itemAdminNews"
+        android:icon="@drawable/ic_baseline_newspaper_24"/>
+    <item android:title="Adminsitrar personajes"
+        android:id="@+id/itemAdminCharacters"
+        android:icon="@drawable/ic_baseline_admin_panel_settings_24"/>
+    <item android:title="Administrar consejos"
+        android:id="@+id/itemAdminTips"
+        android:icon="@drawable/ic_baseline_forum_24"/>
+</menu>

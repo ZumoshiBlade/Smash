@@ -10,4 +10,5 @@
     <item android:title="Administrar consejos"
         android:id="@+id/itemAdminTips"
         android:icon="@drawable/ic_baseline_forum_24"/>
+
 </menu>

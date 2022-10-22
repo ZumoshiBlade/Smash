@@ -1,14 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AdminCharacters">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:text="Nombre"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/txtNombre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:textColor="@color/white"
+            android:text="Serie"
+            app:layout_constraintBottom_toTopOf="@+id/txtSerie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="18dp"
+            android:textColor="@color/white"
+            android:text="Descripcion"
+            app:layout_constraintBottom_toTopOf="@+id/txtDescripcion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="18dp"
+            android:textColor="@color/white"
+            android:text="Imagen"
+            app:layout_constraintBottom_toTopOf="@+id/txtImagen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="364dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="72dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvAgregar" />
+
+        <EditText
+            android:id="@+id/txtSerie"
+            android:layout_width="364dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="364dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:background="@color/white"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtSerie" />
+
+        <EditText
+            android:id="@+id/txtImagen"
+            android:layout_width="364dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:background="@color/white"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDescripcion" />
+
+        <TextView
+            android:id="@+id/tvAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:text="¡Agrega un personaje!"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonAgregar"
+            android:layout_width="157dp"
+            android:layout_height="58dp"
+            android:text="¡Agregar!"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtImagen" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

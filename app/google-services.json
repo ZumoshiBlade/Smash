@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "865661839474-b60hr53bf2ijfa8ubt6bgoc4kmh0erg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zushi.smash",
+            "certificate_hash": "1607de0ef6555b2c5aa2eccc5820ce200bcbb58b"
+          }
+        },
+        {
           "client_id": "865661839474-fr3biuik6rrm8b8q5fo1arivjo2j1ds4.apps.googleusercontent.com",
           "client_type": 3
         }

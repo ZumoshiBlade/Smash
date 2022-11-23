@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Crear"
+        android:id="@+id/create"
+        android:icon="@drawable/ic_baseline_create_24"/>
+    <item android:title="Listar"
+        android:id="@+id/list"
+        android:icon="@drawable/ic_baseline_list_alt_24"/>
+    <item android:title="Eliminar"
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_baseline_delete_24"/>
+</menu>

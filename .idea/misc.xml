@@ -58,7 +58,10 @@
         <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/fragment_settings.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/fragment_tips.xml" value="0.264" />
         <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/fragment_update_character.xml" value="0.1" />
+        <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/item_api.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/item_character.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/nav_header.xml" value="0.264" />
+        <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/row_api.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/row_characters.xml" value="0.1" />
         <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/layout/row_tips.xml" value="0.2" />
         <entry key="..\:/Users/jorge/AndroidStudioProjects/Smash/app/src/main/res/menu/borrom_nav_menu.xml" value="0.2375" />

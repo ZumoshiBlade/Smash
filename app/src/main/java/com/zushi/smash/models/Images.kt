@@ -1,4 +1,4 @@
-package com.zushi.smash
+package com.zushi.smash.models
 
 data class Images(
     val icon: String,
